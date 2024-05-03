@@ -1,4 +1,4 @@
-[![MasterHead](https://media.licdn.com/dms/image/D5612AQFrvZZXuZU_KQ/article-cover_image-shrink_720_1280/0/1712199900838?e=2147483647&v=beta&t=dGDnea8Up1MOOWeirvp7YC81yIBDDjZRuJU9y7KF28M)](https://Kevinkiron.io)
+[![MasterHead](https://www.careerguide.com/career/wp-content/uploads/2020/03/full-stack-development.gif)](https://Kevinkiron.io)
 <h1 align="center">Hi 👋, I'm Kevin Kiron</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:1360/1*zVnWJtyGOX_kUIDm6ccCfQ.gif">
