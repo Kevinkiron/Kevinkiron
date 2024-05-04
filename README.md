@@ -24,5 +24,4 @@
 
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kevinkiron&" alt="kevinkiron" /></p>
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kevinkiron&" alt="kevinkiron" /><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kevinkiron&show_icons=true&locale=en&layout=compact" alt="kevinkiron" /></p>
