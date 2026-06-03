@@ -93,11 +93,13 @@
     .fb.active,.fb:hover{background:var(--gp);border-color:transparent;color:#fff}
     .apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:20px}
     .ac{background:var(--card);border:1px solid var(--brd);border-radius:24px;padding:28px;transition:all .35s;position:relative;overflow:hidden;cursor:default}
-    .ac-glow{position:absolute;top:-60px;right:-60px;width:180px;height:180px;border-radius:50%;filter:blur(60px);opacity:0;transition:opacity .35s}
-    .ac:hover .ac-glow{opacity:1}
-    .ac::after{content:'';position:absolute;inset:0;border-radius:24px;border:1px solid transparent;background:linear-gradient(var(--card),var(--card)) padding-box,var(--gp) border-box;opacity:0;transition:opacity .35s}
-    .ac:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.35)}
-    .ac:hover::after{opacity:1}
+    .ac-glow{position:absolute;top:-60px;right:-60px;width:180px;height:180px;border-radius:50%;filter:blur(60px);opacity:0;transition:opacity .35s;pointer-events:none}
+    .ac::after{content:'';position:absolute;inset:0;border-radius:24px;border:1px solid transparent;background:linear-gradient(var(--card),var(--card)) padding-box,var(--gp) border-box;opacity:0;transition:opacity .35s;pointer-events:none}
+    @media(hover:hover){
+      .ac:hover .ac-glow{opacity:1}
+      .ac:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.35)}
+      .ac:hover::after{opacity:1}
+    }
     .ac-top{display:flex;gap:16px;align-items:flex-start;margin-bottom:16px}
     .ac-icon{width:68px;height:68px;border-radius:18px;object-fit:cover;flex-shrink:0;box-shadow:0 6px 20px rgba(0,0,0,.5)}
     .ac-icon-ph{width:68px;height:68px;border-radius:18px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:2rem}
